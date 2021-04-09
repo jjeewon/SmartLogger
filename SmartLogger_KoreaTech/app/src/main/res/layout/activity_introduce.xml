@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/colorLightGreen"
+        android:orientation="horizontal"
+        android:paddingTop="10dip">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/loginicon2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@color/colorLightGreen"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_introduce_pic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="자연인은 자동차를 연구하는 사람들의 약자로서 매년 자동차에 관한 연구 , 설계 및 제작을 주목적으로 활동하며 보다 안전하게, 보다 튼튼하게 차량을 만들기 위해 노력하고 생각하는 동아리입니다. \n자신이 꿈꾸어 오던 자동차를 직접 제작하며 더 넓은 생각을 해 볼 수 있습니다. \n저희는 주로 BAJA 시스템의 자동차를 연구하고 직접 제작을 하였으며 국내에서 열리는 국제 대학생 자작자동차대회에서도 우수한 성적을 거두어 대외적으로 명성을 떨치고 있습니다.\n 2년 마다 열리는 모터쇼에도 참가하여 차량 전시 및 관람을 실시하고 있습니다. \n타 학교와 자동차에 대한 지식교류도 하며 자동차에 대한 생각을 넓히고 있습니다. \n자연인의 도전은 계속 됩니다."/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    }
+]

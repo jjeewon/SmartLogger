@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent" >
+
+    <TabHost
+        android:id="@+id/tab_host"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom"
+            android:background="@color/colorLightGreen" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:background="@color/colorLightGreen"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dip">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45dp"
+                        android:src="@drawable/loginicon2" />
+
+                    <TextView
+                        android:id="@+id/info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="1dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorLightGreen"
+
+                    android:orientation="horizontal">
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/relativelayout1"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1">//랠러티브 레이아웃 생성
+
+                        <ImageView
+                            android:id="@+id/Velocity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_velocity_letter" />
+                        //이미지뷰 생성
+
+                        <TextView
+                            android:id="@+id/Velocity_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/Velocity"
+                            android:layout_alignLeft="@id/Velocity"
+                            android:layout_alignRight="@id/Velocity"
+                            android:layout_alignTop="@id/Velocity"
+                            android:layout_margin="1dp"
+                            android:gravity="center"
+                            android:text=" "
+                            android:textColor="#000000" />
+                        //정렬을 상하좌우 이미지뷰에 맞춘다.
+
+                    </RelativeLayout>
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/relativelayout2"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1">//랠러티브 레이아웃 생성
+
+                        <ImageView
+                            android:id="@+id/Acceleration"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_gps" />
+                        //이미지뷰 생성
+
+                        <TextView
+                            android:id="@+id/Accelation_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/Acceleration"
+                            android:layout_alignLeft="@id/Acceleration"
+                            android:layout_alignRight="@id/Acceleration"
+                            android:layout_alignTop="@id/Acceleration"
+                            android:layout_margin="1dp"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="#000000" />
+                        //정렬을 상하좌우 이미지뷰에 맞춘다.
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/header_gradient"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/relativelayout3"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1">//랠러티브 레이아웃 생성
+
+                        <ImageView
+                            android:id="@+id/RPM"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_rpm_letter" />
+                        //이미지뷰 생성
+
+                        <TextView
+                            android:id="@+id/RPM_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/RPM"
+                            android:layout_alignLeft="@id/RPM"
+                            android:layout_alignRight="@id/RPM"
+                            android:layout_alignTop="@id/RPM"
+                            android:layout_margin="1dp"
+                            android:gravity="center"
+                            android:text=" "
+                            android:textColor="#000000" />
+                        //정렬을 상하좌우 이미지뷰에 맞춘다.
+
+                    </RelativeLayout>
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/relativelayout4"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1">//랠러티브 레이아웃 생성
+
+
+                        <ImageView
+                            android:id="@+id/Battery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_battery_full" />
+                        //이미지뷰 생성
+
+                        <TextView
+                            android:id="@+id/Battery_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@id/Battery"
+                            android:layout_alignLeft="@id/Battery"
+                            android:layout_alignRight="@id/Battery"
+                            android:layout_alignTop="@id/Battery"
+                            android:layout_margin="1dp"
+                            android:gravity="center"
+                            android:text=" "
+                            android:textColor="#000000" />
+                        //정렬을 상하좌우 이미지뷰에 맞춘다.
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="70dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorLightGreen"
+                    android:orientation="horizontal">
+
+
+                    <RelativeLayout
+                        android:id="@+id/relativelayout5"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_weight="1">//랠러티브 레이아웃 생성
+
+                        <ImageView
+                            android:id="@+id/gpsBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_gps" />
+                        //이미지뷰 생성
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/relativelayout6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1">//랠러티브 레이아웃 생성
+
+
+                        <ImageView
+                            android:id="@+id/driverBtn"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="15dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/driver" />
+
+                        <ImageView
+                            android:id="@+id/adminBtn"
+                            android:layout_width="100dp"
+                            android:layout_height="500dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignTop="@+id/driverBtn"
+                            android:scaleType="fitStart"
+                            android:src="@drawable/admistrator" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab_view3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="69dp"
+                    android:background="@color/colorLightGreen"></LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/tab_view1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/header_gradient">
+
+                    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:id="@+id/map"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/gpsMainView"
+                        tools:context=".MapsActivity" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/chatListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/header_gradient"
+                    android:stackFromBottom="true"
+                    android:transcriptMode="alwaysScroll"></ListView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:background="@drawable/header_gradient"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText"
+                        android:layout_width="280dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/sendBtn"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:text="Send" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+    </TabHost>
+
+    <EditText
+        android:id="@+id/driverMessage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+
+</LinearLayout>
+
+
+

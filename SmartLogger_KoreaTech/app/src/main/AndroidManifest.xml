@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jiwon.smartlogger_koreatech">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gpsmain"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <!-- 스플래시 액티비티 -->
+        <activity android:name=".SplashActivity"
+                   android:theme="@style/SplashTheme"
+                   android:screenOrientation="portrait">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".commonuserMainActivity"></activity>
+        <activity android:name=".DeveloperActivity"></activity>
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".SigninActivity"></activity>
+        <activity android:name=".GpsActivity"></activity>
+        <activity
+            android:windowSoftInputMode="stateHidden"
+            android:name="com.example.jiwon.smartlogger_koreatech.setting.NCubeSetting"
+            android:label="@string/title_activity_ncube_setting" >
+        </activity>
+        <service
+            android:name="com.example.jiwon.smartlogger_koreatech.service.NCubeService"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.example.jiwon.smartlogger_koreatech.service.INCubeService" />
+            </intent-filter>
+        </service>
+       <service android:name="org.eclipse.paho.android.service.MqttService"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD0bKfdt3GYpMxMUU2mxB5iOHnWx7exmsQ"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+</manifest>

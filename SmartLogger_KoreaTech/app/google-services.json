@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "692331579545",
+    "firebase_url": "https://smartlogger-afd14.firebaseio.com",
+    "project_id": "smartlogger-afd14",
+    "storage_bucket": "smartlogger-afd14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692331579545:android:7b63f0f4f5c3d512",
+        "android_client_info": {
+          "package_name": "com.example.jiwon.smartlogger_koreatech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692331579545-hvg5so72438n1t3lh86dkaa3pig6moio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jiwon.smartlogger_koreatech",
+            "certificate_hash": "87d73ca250ffc303628c2537957418c189a05905"
+          }
+        },
+        {
+          "client_id": "692331579545-ipie4lu6eo1opf6p96ptrav2htirf6c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSjpN3yVKlwSIFjVHNQkO2rTGEZjE8Zg8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692331579545-ipie4lu6eo1opf6p96ptrav2htirf6c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "J:\\SmartLogger_KoreaTech\\onem2m\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\jiwon\\.android\\build-cache\\072e1f1b53b6dc9775d348e26c1e729a31821c43\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    }
+]
